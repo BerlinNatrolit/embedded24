@@ -1,3 +1,5 @@
+// Example of enumeration types in c++
+
 #include <iostream>
 
 using namespace std;

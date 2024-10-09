@@ -1,0 +1,1 @@
+g++ mathFun.cpp mathHelperFun.cpp mathSad.cpp

@@ -1,50 +1,10 @@
 #include <iostream>
 #include <stdint.h>
+#include "mathHelperFun.h"
+#include "mathSad.cpp"
 
 using namespace std;
 
-
-int add(int, int);
-int sub(int a, int b);
-float division(int numerator, int denominator);
-float division(float numerator, float denominator);
-float division(int numerator, float denominator);
-float division(float numerator, int denominator);
-int incrementAge();
-
-int add(int a, int b) {
-	return a+b;
-}
-
-int sub(int a, int b) {
-	return a-b;
-}
-
-float division(int numerator, int denominator) {
-	cout << "heltal" << endl;
-	return (float)numerator/(float)denominator;
-}
-
-float division(float numerator, float denominator) {
-	cout << "flyttal" << endl;
-	return numerator/denominator;
-}
-
-float division(int numerator, float denominator) {
-	cout << "heltal, flyttal" << endl;
-	return numerator/denominator;
-}
-
-float division(float numerator, int denominator) {
-	cout << "flyttal, heltal" << endl;
-	return numerator/denominator;
-}
-
-int incrementAge() {
-	static int age = 0;
-	age++;
-	return age;
-}
 
 int main() {
 	int a = 10;
@@ -77,7 +37,8 @@ int main() {
 	cout << incrementAge() << endl;
 	cout << incrementAge() << endl;
 	static int age;
-	cout << age;
+	cout << age << endl;
+	cout << PI << endl;
 	
 	
 	return 0;
